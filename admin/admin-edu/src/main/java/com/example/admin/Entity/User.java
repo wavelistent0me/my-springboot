@@ -44,5 +44,6 @@ public class User implements Serializable {
     //密码
     private String password;
 
-
+    private String role;
+    private String state;
 }
