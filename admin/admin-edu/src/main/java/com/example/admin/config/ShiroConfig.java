@@ -47,8 +47,7 @@ public class ShiroConfig {
         securityManager.setRealm(shiroRealm());
         return securityManager;
     }
-
-    /**
+     /**
      * 自定义实现的Realm
      * @return
      */
